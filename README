@@ -1,0 +1,2 @@
+The whole code is in the two classes of the emergency_care_service package. Simulation contains the main function with the loop interacting with the user,
+and Service contains...everything else.
