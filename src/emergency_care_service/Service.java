@@ -147,9 +147,9 @@ public class Service {
 			increase(5);
 		if (this.states[6] > 0 && this.timers[6] < 1)
 			increase(6);
-		if (this.states[2] == 1 && this.states[12] > 0)
+		if (this.states[2] == 1 && this.states[12] > 0 && this.timers[0] < 10)
 			increase(0);
-		if (this.states[2] == 1 && this.states[13] > 0)
+		if (this.states[2] == 1 && this.states[13] > 0 && this.timers[1] < 10)
 			increase(1);
 		if (this.states[11] == 10 && this.states[9] > 0)
 			increase(7);
